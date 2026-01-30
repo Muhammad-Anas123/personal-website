@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Anas - Professional Web Application Developer specializing in Laravel and PHP">
+    <title>Muhammad Anas | Web Application Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-icon">MA</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+                    <div class="hero-content">
+                        <p class="hero-greeting">Hello, I'm</p>
+                        <h1 class="hero-name">Muhammad Anas</h1>
+                        <div class="hero-title-wrapper">
+                            <h2 class="hero-title">
+                                <span class="typed-text"></span>
+                                <span class="cursor">&nbsp;</span>
+                            </h2>
+                        </div>
+                        <p class="hero-description">
+                            Specialized in building secure, scalable, and high-performance web applications using Laravel and modern PHP technologies.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-gold">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#projects" class="btn btn-outline-gold">
+                                <span>View Work</span>
+                            </a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://www.linkedin.com/in/muhammadanas01/" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Muhammad-Anas123" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:anas.khalil0340@gmail.com" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0" data-aos="fade-left">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-border"></div>
+                        <div class="hero-image">
+                            <img src="img/my_profile-pic.png" alt="Muhammad Anas" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <span class="section-subtitle" data-aos="fade-up">Get To Know</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">About Me</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="200"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-border"></div>
+                        <div class="about-image">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" alt="Developer workspace" class="img-fluid">
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-target="2">0</h3>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-target="3">0</h3>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3 class="mb-4">Backend Laravel Developer</h3>
+                        <p class="lead mb-4">
+                            Passionate about crafting robust and efficient backend solutions that power modern web applications.
+                        </p>
+                        <p class="mb-4">
+                            As a dedicated Backend Laravel Developer, I bring extensive hands-on experience in architecting and developing secure, scalable, and maintainable web applications. My expertise lies in leveraging the power of Laravel framework and core PHP to deliver enterprise-grade solutions that meet complex business requirements.
+                        </p>
+                        <p class="mb-4">
+                            I specialize in designing and implementing RESTful APIs, managing complex MySQL database architectures, and building sophisticated authentication and authorization systems. My development approach centers on MVC architecture principles, emphasizing clean code practices, SOLID principles, and continuous performance optimization to ensure applications run efficiently at scale.
+                        </p>
+                        <p class="mb-5">
+                            With a strong foundation in modern development workflows including Git version control, Docker containerization, and Linux server environments, I'm committed to staying current with industry best practices and emerging technologies to deliver cutting-edge solutions.
+                        </p>
+                        
+                        <div class="about-info-grid">
+                            <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h6>Location</h6>
+                                    <p>Peshawar, Pakistan</p>
+                                </div>
+                            </div>
+                            <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h6>Email</h6>
+                                    <p>anas.khalil0340@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h6>Phone</h6>
+                                    <p>+92 340 9172350</p>
+                                </div>
+                            </div>
+                            <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+                                <div class="info-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h6>Education</h6>
+                                    <p>BS Computer Science</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <span class="section-subtitle" data-aos="fade-up">Career Journey</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Professional Experience</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="200"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="timeline">
+                        <!-- Experience 1 -->
+                        <div class="timeline-item" data-aos="fade-up">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Jan 2026 - Present</div>
+                            <div class="timeline-content">
+                                <span class="timeline-badge">Current</span>
+                                <h3>Web Application Developer</h3>
+                                <h4>National Center of Artificial Intelligence (NCAI) UET Peshawar</h4>
+                                <p class="timeline-type"><i class="fas fa-briefcase"></i> Full-time · On-site</p>
+                                <ul class="timeline-responsibilities">
+                                    <li>Developing backend features using Laravel (MVC architecture)</li>
+                                    <li>Designing and consuming RESTful APIs</li>
+                                    <li>Working with MySQL databases, migrations, and relationships</li>
+                                    <li>Implementing authentication, authorization, and role-based access</li>
+                                    <li>Writing clean, maintainable, and reusable code</li>
+                                    <li>Collaborating with frontend teams and following Git workflows</li>
+                                    <li>Debugging, optimizing performance, and fixing backend issues</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">PHP</span>
+                                    <span class="skill-tag">Laravel</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">REST APIs</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experience 2 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Mar 2024 - Sep 2025</div>
+                            <div class="timeline-content">
+                                <h3>Software Developer</h3>
+                                <h4>Bahria Town Peshawar</h4>
+                                <p class="timeline-type"><i class="fas fa-briefcase"></i> Full-time · 1 yr 7 mos</p>
+                                <ul class="timeline-responsibilities">
+                                    <li>Developed and maintained enterprise software solutions</li>
+                                    <li>Worked with LotusScript and Formula Language for application development</li>
+                                    <li>Collaborated with cross-functional teams to deliver high-quality software</li>
+                                    <li>Implemented business logic and data processing solutions</li>
+                                    <li>Participated in code reviews and maintained coding standards</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">LotusScript</span>
+                                    <span class="skill-tag">Formula Language</span>
+                                    <span class="skill-tag">Software Development</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experience 3 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Dec 2022 - Jun 2023</div>
+                            <div class="timeline-content">
+                                <h3>Web Developer</h3>
+                                <h4>Khyber Pakhtunkhwa Information Technology Board (KPITB)</h4>
+                                <p class="timeline-type"><i class="fas fa-graduation-cap"></i> Internship · 7 mos</p>
+                                <p class="timeline-location">ISOFT IT Training & Consultancy, IT Park Peshawar · On-site</p>
+                                <ul class="timeline-responsibilities">
+                                    <li>Gained hands-on experience in web development technologies</li>
+                                    <li>Developed dynamic web applications using PHP and MySQL</li>
+                                    <li>Implemented responsive designs with HTML, CSS, and JavaScript</li>
+                                    <li>Worked with jQuery for enhanced user interactions</li>
+                                    <li>Participated in team projects and agile development practices</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">PHP</span>
+                                    <span class="skill-tag">HTML</span>
+                                    <span class="skill-tag">CSS</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">jQuery</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Education -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="timeline-dot education"></div>
+                            <div class="timeline-date">Aug 2018 - Oct 2022</div>
+                            <div class="timeline-content">
+                                <span class="timeline-badge education-badge">Education</span>
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <h4>University of Peshawar</h4>
+                                <p class="timeline-type"><i class="fas fa-graduation-cap"></i> ICT Department</p>
+                                <p class="mt-3">
+                                    Completed comprehensive studies in Computer Science with focus on Information and Communication Technology, 
+                                    building a strong foundation in software engineering, algorithms, database systems, and web technologies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <span class="section-subtitle" data-aos="fade-up">My Expertise</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Technical Skills</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="200"></div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Skill 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <h4>Laravel</h4>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <h4>PHP</h4>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>MySQL</h4>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h4>REST APIs</h4>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="350">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h4>Git & GitHub</h4>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <h4>Docker</h4>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <h4>Linux</h4>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <span class="section-subtitle" data-aos="fade-up">Portfolio</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Featured Projects</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="200"></div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="Enterprise Web Application" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">01</div>
+                            <h3>Enterprise Web Application</h3>
+                            <p>A comprehensive enterprise management system built with Laravel, featuring role-based access control, real-time notifications, and advanced reporting capabilities. Implements RESTful APIs for seamless integration with third-party services.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Laravel</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">REST API</span>
+                                <span class="tech-badge">Vue.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="E-Commerce Platform" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">02</div>
+                            <h3>E-Commerce Platform</h3>
+                            <p>Full-stack e-commerce solution with advanced product management, shopping cart functionality, payment gateway integration, and order tracking system. Features include inventory management and automated email notifications.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">PHP</span>
+                                <span class="tech-badge">Laravel</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80" alt="API Management System" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">03</div>
+                            <h3>API Management System</h3>
+                            <p>Robust RESTful API platform with OAuth2 authentication, rate limiting, and comprehensive documentation. Includes API versioning, request validation, and detailed logging for monitoring and debugging purposes.</p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Laravel</span>
+                                <span class="tech-badge">REST API</span>
+                                <span class="tech-badge">OAuth2</span>
+                                <span class="tech-badge">Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <span class="section-subtitle" data-aos="fade-up">Let's Connect</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Get In Touch</h2>
+                    <div class="section-divider" data-aos="fade-up" data-aos-delay="200"></div>
+                    <p class="section-description" data-aos="fade-up" data-aos-delay="300">
+                        Have a project in mind or want to discuss opportunities? I'd love to hear from you.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="row g-4 mb-5">
+                        <!-- Contact Info 1 -->
+                        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                            <div class="contact-info-card">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <a href="mailto:anas.khalil0340@gmail.com">anas.khalil0340@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Info 2 -->
+                        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                            <div class="contact-info-card">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h5>Phone</h5>
+                                <a href="tel:+923409172350">+92 340 9172350</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Info 3 -->
+                        <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                            <div class="contact-info-card">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <h5>LinkedIn</h5>
+                                <a href="https://www.linkedin.com/in/muhammadanas01/" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Info 4 -->
+                        <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                            <div class="contact-info-card">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <h5>GitHub</h5>
+                                <a href="https://github.com/Muhammad-Anas123" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <form id="contactForm" class="contact-form" data-aos="fade-up" data-aos-delay="400">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">Full Name</label>
+                                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">Email Address</label>
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Project Discussion" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell me about your project..." required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-gold btn-lg">
+                                            <span>Send Message</span>
+                                            <i class="fas fa-paper-plane ms-2"></i>
+                                        </button>
+                                        <div id="formStatus" class="form-status mt-3"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2026 Muhammad Anas. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/muhammadanas01/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Muhammad-Anas123" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:anas.khalil0340@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
