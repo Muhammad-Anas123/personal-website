@@ -10,7 +10,7 @@
     --black-soft: #0A0A0A;
     --black-medium: #1A1A1A;
     --black-light: #2A2A2A;
-    --gray-dark: #404040;
+    --gray-dark: #3f3d3d;
     --gray-medium: #666666;
     --gray-light: #999999;
     --white: #FFFFFF;
@@ -1078,7 +1078,8 @@ body {
     outline: none;
     border-color: var(--gold-primary);
     box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
-    background: var(--black-primary);
+    background: var(--black-soft);
+    color: var(--white);
 }
 
 .form-control::placeholder {
